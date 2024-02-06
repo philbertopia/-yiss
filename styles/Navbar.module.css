@@ -2,10 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
-    position: absolute;
+    margin: auto;
     width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
     max-width: 800px;
 }
 
