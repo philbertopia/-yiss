@@ -14,8 +14,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         
         <div className={styles.header}>
-          <Image src="/images/yiss-hero.png" width={300} height={300} alt="" />
-          <Image className={styles.title} src="/images/yiss-title.png" width={330} height={134} alt="" />
+          <Image src="/images/yiss-logo-title.png" width={330} height={339} alt="" />
         </div>
           
           <div className={styles.links}>
@@ -31,7 +30,7 @@ const Home: NextPage = () => {
           <p>Motha Fuckin Breadcrumbs!</p>
           <p>Memecoin for happy gooses on Polygon</p>
           <p>NFTs coming soon!</p>
-          <p>Join the community on Discord to learn about whitelist, preorders, airdrops & other special breadcrumbs.</p>
+          <p>Join the $YISS community on Discord to learn about whitelist, preorders, airdrops & other special breadcrumbs.</p>
           
       </div>
     </main>
