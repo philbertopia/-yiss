@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.connect {
+    display: inline-flex;
+    padding: 0.5rem 5rem;
+    background-color: red;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
