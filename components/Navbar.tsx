@@ -16,10 +16,10 @@ const Navbar = () => {
         </div>
         <ConnectWallet
           style={{ backgroundColor: "black", color: "white", padding: "10px 20px" }}
-          dropdownPosition={{
-            side: "bottom",
-            align: "center",
-          }}
+          // dropdownPosition={{
+          //   side: "bottom",
+          //   align: "center",
+          // }}
             />
       </nav>
     );
