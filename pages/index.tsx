@@ -24,14 +24,17 @@ const Home: NextPage = () => {
             <Link className={styles.link} href="/"><SiCoinmarketcap /></Link>
             <Link className={styles.link} href="/"><SiOpensea /></Link>
           </div>
-          <h2>
-            Aww Yiss!
-          </h2>
-          <p>Motha Fuckin Breadcrumbs!</p>
-          <p>Memecoin for happy gooses on Polygon</p>
-          <p>NFTs coming soon!</p>
-          <p>Join the $YISS community on Discord to learn about whitelist, preorders, airdrops & other special breadcrumbs.</p>
-          
+
+          <div className={styles.text}>
+            <h2>
+              Aww Yiss!
+            </h2>
+            <p>Motha Fuckin Breadcrumbs!</p>
+            {/* <Image src="/images/polygon-matic-logo.png" width={40} height={40} alt="" /> */}
+            <p>Memecoin for happy gooses on Polygon</p>
+            <p>NFTs coming soon!</p>
+            <p>Join the $YISS community on Discord to learn about whitelist, preorders, airdrops & other special breadcrumbs.</p>
+          </div>
       </div>
     </main>
   );

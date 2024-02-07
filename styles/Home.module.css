@@ -40,3 +40,13 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+.text {
+  width: 80%;
+  margin: auto;
+  max-width: 400px;
+}
+
+.text h2 {
+  font-size: 2rem;
+}
