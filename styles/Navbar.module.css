@@ -5,12 +5,7 @@
     margin: auto;
     width: 100%;
     max-width: 800px;
-}
-
-.connect {
-    display: inline-flex;
-    padding: 0.5rem 5rem;
-    background-color: red;
+    margin-bottom: 30px;
 }
 
 .logo {

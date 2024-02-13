@@ -3,9 +3,56 @@
     color: aliceblue;
     padding: 2rem 0;
     text-align: center;
+    margin-top: 60px;
   }
   
   .container {
     max-width: 1024px;
     margin: 0 auto;
+  }
+
+  .links {
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .link {
+    font-size: 2rem;
+    color: white;
+  }
+
+  @keyframes icon-hover {
+    from { transform: translate(0, 0); }
+    to { transform: translate(0, -5px); }
+  }
+
+  .link:hover {
+    transform: translate(0, -5px);
+    animation: icon-hover 0.3s ease-in-out;
+  }
+
+  .footer_links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    justify-content: space-between;
+    max-width: 60%;
+  }
+
+  .link_collum {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  }
+
+  .footer_link {
+    color: white;
+  }
+
+  .footer_link:hover {
+    font-weight: bold;
   }
